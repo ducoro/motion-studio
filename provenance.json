@@ -1,0 +1,224 @@
+{
+  "purpose": "复刻审阅版，14 张 CC0 油画背景、自绘曲面玻璃 Dock 与 CC0 古典钢琴录音",
+  "reference": {
+    "page": "https://x.com/nbaschez/status/2105815862460723434",
+    "video": "https://video.twimg.com/amplify_video/2105815686698414080/vid/avc1/1920x1080/IM1TNJ4Olubv7UKW.mp4?tag=29",
+    "author": "Nathan Baschez / Notion",
+    "duration": 18.752,
+    "localAssets": [
+      {
+        "path": ".local/reference/reference-audio.m4a",
+        "sha256": "c3c6397e8f2ef1883ddccbd68ff1842472adf2cf70a58c78e571721fbe3b07d5"
+      },
+      {
+        "path": ".local/reference/reference.mp4",
+        "sha256": "1eeb95e4a09cf51aecc08859cc9777508c6e08240fc11030a2a9f988de32d1cd"
+      }
+    ]
+  },
+  "production": {
+    "remotion": "4.0.532",
+    "opencv-python-headless": "5.0.0.93",
+    "composition": "DucoroAgentGroup",
+    "fps": 30,
+    "durationInFrames": 626,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "language": "en",
+    "readingHoldMs": 300,
+    "audio": "Kimiko Ishizaka / Open Goldberg Variations 2012 / Bach BWV 988 Variation 1，原速裁切 20.866667 秒，首尾淡入淡出，直接封装 AAC，第 593 帧叠加原创鼠标点击声",
+    "brandCount": 14,
+    "brandOrders": 8,
+    "background": "14 张 Wikimedia Commons CC0 油画，30 段参考切点，3 帧交叉渐变，图片常驻并以旧图垫底，独立曲面玻璃 Dock",
+    "camera": "稳定测量锚点做单调三次插值，固定中心高度，整排固定宽高以统一 transform 缩放",
+    "glass": "圆角曲面距离场、Snell 折射、2.4px 散射、曲面高光，固定几何下独立采样背景"
+  },
+  "brandSources": {
+    "ducoro": "sources/brands/ducoro-app-icon.png",
+    "bots": "sources/brands/",
+    "font": "Arial, system font; reference-style typography",
+    "modelGlyphs": "sources/brands/glyph-paths.json",
+    "brandMapping": {
+      "grok": "xai",
+      "kimi": "moonshot",
+      "glm": "zai"
+    },
+    "colors": "src/brands.ts (fixed production palette)"
+  },
+  "pricingChecked": {
+    "date": "2026-10-02 Asia/Shanghai",
+    "url": "https://ducoro.ai/pricing/",
+    "catalog": "https://gw.ducoro.ai/v1/billing/catalog",
+    "signup": {
+      "trialDays": 30,
+      "grantMicro": 5000000
+    }
+  },
+  "assets": [
+    {
+      "path": "assets/backgrounds/courbet-calm-sea.jpg",
+      "sha256": "b8a0d79a372358d9efe3c10334bb82784a0afc134319cf07139305b82738fac2"
+    },
+    {
+      "path": "assets/backgrounds/courbet-sea.jpg",
+      "sha256": "eb4f4ea87edf049b6e189966cb7dd57833c91b02b7c9478985699976394874dd"
+    },
+    {
+      "path": "assets/backgrounds/dupre-cattle.jpg",
+      "sha256": "f2f8b40242bf81addf072f42a112b01a5ebcce889f8ddd931ce328a13132ea39"
+    },
+    {
+      "path": "assets/backgrounds/monet-blue-lilies.jpg",
+      "sha256": "5ff850020e52f91434a5e5fa3636162d6d9747965cf2f24cecda3a0bd6c85fe6"
+    },
+    {
+      "path": "assets/backgrounds/monet-haystacks.jpg",
+      "sha256": "0d536b43aebdef61d4bd7d4a5afb1e7a1acce945ed9c0981631e607b2a9eab2a"
+    },
+    {
+      "path": "assets/backgrounds/monet-parc-monceau.jpg",
+      "sha256": "942ad096f9d923ae7215b71a34c536b80bc6b23707659c2380dd101a0368c224"
+    },
+    {
+      "path": "assets/backgrounds/monet-water-lilies.jpg",
+      "sha256": "9b0d2b0717619291709feccfe365141420057f47c7165984c236fe8bd3848f2b"
+    },
+    {
+      "path": "assets/backgrounds/monet-willows.jpg",
+      "sha256": "91315d04f3fc36b7c147fb3489189ca4899426cc5523dea0d8bfdea6fb80a6a4"
+    },
+    {
+      "path": "assets/backgrounds/pissarro-ile-de-france.jpg",
+      "sha256": "693d632bbc3c677a5df3a41ac0d6868210e205f265371ccd678c9f56e13c142e"
+    },
+    {
+      "path": "assets/backgrounds/pissarro-pontoise.jpg",
+      "sha256": "693c1bc65ce9293405b3fc66ebe40ffeb61bed2aa4bf9208be8ad44c4134aad7"
+    },
+    {
+      "path": "assets/backgrounds/renoir-vetheuil.jpg",
+      "sha256": "11fbecef6cf42306cae4734dcd11e70894eebb92e4a859c0b1932ca8afa5e273"
+    },
+    {
+      "path": "assets/backgrounds/sisley-first-snow.jpg",
+      "sha256": "2650427c5e839c4004a1794d3ca15befaf7838b9f89ae208e6dbbe2629edb44e"
+    },
+    {
+      "path": "assets/backgrounds/sources.json",
+      "sha256": "f21d34a899ee170278e79ea7e5b857c9829c45a690bf1dc702ae836b8e4323c7"
+    },
+    {
+      "path": "assets/backgrounds/vangogh-cypresses.jpg",
+      "sha256": "13227a05b860f567624f32c8d951373cdbab57dcb8f183894d4127e24921dfce"
+    },
+    {
+      "path": "assets/backgrounds/vangogh-green-wheat.jpg",
+      "sha256": "1fbe9f3b0bfa323933df6053f07253f255a4537d5d99b95ed92d5ecc9a67150d"
+    },
+    {
+      "path": "assets/claude.svg",
+      "sha256": "ede0e4735189b9935d97829b0fd2322b0bc02d9ee9289a6644d9df01f3f13564"
+    },
+    {
+      "path": "assets/codex.svg",
+      "sha256": "373e419a0ea1b80864d0d0bede2e45784c2aae08852cd5396c4fbf8323f84721"
+    },
+    {
+      "path": "assets/cursor.svg",
+      "sha256": "0817b55352842794093f5b776413328c3f7b3a913e5ff0b8655924dc687cd18d"
+    },
+    {
+      "path": "assets/deepseek.svg",
+      "sha256": "a6fa3f3df3908f567d3a8f02c60c6ade8e356adc60060ad05083955e35b63a84"
+    },
+    {
+      "path": "assets/ducoro-app-icon.png",
+      "sha256": "bbce6b3769442105dae0cce63e54384d80e9ad579963014ddf32729753607255"
+    },
+    {
+      "path": "assets/gemini.svg",
+      "sha256": "6c39d6e308819d503feb13f55df087cf434aea935b3ed1dd567f32fd1955178f"
+    },
+    {
+      "path": "assets/glm.svg",
+      "sha256": "925802d1d274b7b080d159a82b12641283fc0aae3665d2ff8179c29f26c34495"
+    },
+    {
+      "path": "assets/grok.svg",
+      "sha256": "7f89344379feafa3c3a8e8031959577a817d2ff7bb4f7bc3d9a28c60531e872b"
+    },
+    {
+      "path": "assets/kimi.svg",
+      "sha256": "6c4e5cf5d7d4207b1c2b5a480fa9e5d331792cd303ef1665665ecd9c5a49b2a5"
+    },
+    {
+      "path": "assets/minimax.svg",
+      "sha256": "2cc4303b7b407c3968b5682712f77be9bc2b77aa37eb187b92cf77742992dd5b"
+    },
+    {
+      "path": "assets/mistral.svg",
+      "sha256": "02931d3b1cb28ff6067cb6f364a923b846fdbe8d6785da01a58e0c5bd22ff756"
+    },
+    {
+      "path": "assets/music/bach-goldberg-variation-1-source.mp3",
+      "sha256": "40d52699d6064766e0d9857ba435b5c7aea53ecc46c3ce32a87ff7e82da4a639"
+    },
+    {
+      "path": "assets/music/film-music.m4a",
+      "sha256": "effaf41ed8d6c35f2c2e4d6b3affab970c63ded790b25e79c168aeebcb2dafbe"
+    },
+    {
+      "path": "assets/music/source.json",
+      "sha256": "debc8251763fa8df6944282da768c492689aa9ab80ed7bd8a6b5828d9a929af0"
+    },
+    {
+      "path": "assets/openclaw.svg",
+      "sha256": "f884afd21f26eca1bda59ed569192a42ced89f879b4b1253adc5455af22e07d1"
+    },
+    {
+      "path": "assets/opencode.svg",
+      "sha256": "66f2c06f40af3ef6cc543cbc5f03feb32c9ef180837ac253a32e4e7dff30aff7"
+    },
+    {
+      "path": "assets/pi.svg",
+      "sha256": "f73c61084faa0999266bb5fa63807cc6aac097ef792a08c45125b22973bf9232"
+    },
+    {
+      "path": "assets/qwen.svg",
+      "sha256": "1470bd827254e222b3c5855211d8ea518b5a492dc849ab4af6d25747b3b86aa3"
+    },
+    {
+      "path": "assets/reference-geometry.json",
+      "sha256": "7ef38c1914d14ff0909294393b5944ddb3b09be758ff033a3d98f2f4bd9b97c4"
+    },
+    {
+      "path": "assets/sfx/mouse-click.wav",
+      "sha256": "5cc51c579d0504e19dc88fe1bb7b6ba6b4d7d3a17db6ad260d841f2cd7f00ebb"
+    },
+    {
+      "path": "assets/sfx/source.json",
+      "sha256": "aaafd8f179c7f5ad90f4ec74e886b8bb3c052d151f7fd12ec59b775b0f7dfa55"
+    },
+    {
+      "path": "assets/glass/optics.json",
+      "sha256": "4ee72a7635744f459c5cd4429b1ce4260ef51bdedb73c1b935af9344c7af6506"
+    }
+  ],
+  "backgroundSources": "assets/backgrounds/sources.json",
+  "musicSource": "assets/music/source.json",
+  "soundEffectSource": "assets/sfx/source.json",
+  "materialReferences": [
+    "https://developer.apple.com/videos/play/wwdc2025/219/",
+    "https://kube.io/blog/liquid-glass-css-svg/",
+    "https://www.w3.org/TR/filter-effects-1/#feDisplacementMapElement"
+  ],
+  "snapshot": {
+    "repository": "xiangst0816/CommanderOS",
+    "commit": "ccc2f5e9a1d9598c9e43c4b6b20110ccf2b73770",
+    "path": "animations/agent-group-film",
+    "extractedOn": "2026-10-02",
+    "mode": "Independent snapshot"
+  }
+}

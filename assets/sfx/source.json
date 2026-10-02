@@ -1,0 +1,9 @@
+{
+  "file": "mouse-click.wav",
+  "creator": "Ducoro",
+  "origin": "原创程序合成的鼠标机械按下与松开声，确定性噪声瞬态与衰减共振",
+  "generator": "scripts/prepare-click.ts",
+  "sampleRate": 44100,
+  "durationSeconds": 0.15,
+  "releaseOffsetSeconds": 0.09
+}
